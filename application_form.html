@@ -1,0 +1,63 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://webstatic.kennesaw.edu/_omni/images/favicon.ico">
+  <title>Apply</title>
+</head>
+
+<body>
+  <logo>
+    <div id="ksu_logo">
+      <a href="https://www.kennesaw.edu/ccse/academics/information-technology/index.php">
+        <img src="https://www.kennesaw.edu/webstatic/_resources/images/template/ksu_horizontal.svg"
+          alt="Kennesaw State University" width="=293px" height="75px">
+      </a>
+    </div>
+  </logo>
+  <header>
+    <h1>CARIT - Center for Applied Research in Information Technology</h1>
+  </header>
+  <nav class="shift">
+    <ul>
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="about.html"> About Us </a> </li>
+      <li><a href="Apply.html"> apply </a></li>
+      <li><a href="Events.html"> Events </a></li>
+      <li><a href="application_form.html"></a></li>
+
+    </ul>
+  </nav>
+  <section class="first">
+    <center>
+        <font color="#ffc629">
+        <h1>
+        Application form  
+        </h1>
+       </font>
+    </center>
+   <center>
+  <div>
+    <form action+"process_application.php" method="post">
+    <div class="form__group field">
+      <input type="text" class="form__field" placeholder="Name" name="name" id='name' required />
+      <label for="name" class="form__label">Name</label>
+      </div>
+      <div class="form__group field">
+        <input type="email" class="form__field" placeholder="Name" name="email" id='email' required />
+        <label for="name" class="form__label">Email</label>
+        </div>
+        <br>
+        <input type="submit" value="Submit" class="btn" id="evaluateButton">
+    </form>
+    </div>
+      
+
+  </section>
+  <footer>
+    Note: This is class project <a href="http://it5443.azurewebsites.net/"
+      style="color: #ffc629;">http://it5443.azurewebsites.net/;</a>
+  </footer>
+
+</html>
